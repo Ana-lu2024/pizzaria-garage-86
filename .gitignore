@@ -8,6 +8,10 @@ nbproject/private/
 # Compilados
 *.class
 
+# Logs de erro do Java (gerados quando a JVM trava)
+hs_err_pid*.log
+replay_pid*.log
+
 # Sistema operacional
 .DS_Store
 Thumbs.db
