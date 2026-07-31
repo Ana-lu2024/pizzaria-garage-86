@@ -1,12 +1,12 @@
-# 🍕 Sistema Pizzaria Garage 86
+Sistema Pizzaria Garage 86
 
 Sistema desktop para gestão operacional de uma pizzaria, desenvolvido em **Java** com arquitetura **MVC** e padrão **DAO**, interface gráfica em **Swing** e persistência de dados em **MySQL** via **JDBC**.
 
-## 📋 Sobre o projeto
+Sobre o projeto
 
 O sistema organiza o cadastro de clientes, produtos e usuários, permitindo que o funcionário registre pedidos, consulte informações, altere dados cadastrados e acompanhe vendas por meio de relatórios.
 
-## ✨ Funcionalidades
+Funcionalidades
 
 - **Login** — autenticação de usuários por login e senha (senha armazenada como hash SHA-256)
 - **Clientes** — cadastro, consulta, alteração e exclusão
@@ -16,7 +16,7 @@ O sistema organiza o cadastro de clientes, produtos e usuários, permitindo que 
 - **Estoque** — atualização automática após o registro de um pedido
 - **Relatórios** — relatório diário e mensal de vendas
 
-## 🏗️ Arquitetura
+Arquitetura
 
 O projeto segue o padrão **MVC**, organizado em camadas:
 
@@ -25,14 +25,14 @@ O projeto segue o padrão **MVC**, organizado em camadas:
 - **View** — telas Swing responsáveis pela interação com o usuário
 - **util.Conexao** — centraliza a conexão JDBC com o banco MySQL
 
-## 🛠️ Tecnologias
+Tecnologias
 
 - Java
 - Java Swing
 - MySQL
 - JDBC
 
-## ▶️ Como executar
+Como executar
 
 1. **Crie o banco de dados**: execute o script `database/pizzaria.sql` em um servidor MySQL. Ele cria as tabelas e já insere alguns dados de exemplo (produtos, clientes e 3 usuários de teste).
 
@@ -57,10 +57,10 @@ O projeto segue o padrão **MVC**, organizado em camadas:
    - Login: `admin` / Senha: `123`
    - Login: `atendente` / Senha: `456`
 
-## 📸 Demonstração
+Demonstração
 
 O projeto conta com telas de login, menu principal, cadastro de pedidos, listagens de clientes/produtos/usuários e relatórios diário e mensal.
 
-## 👩‍💻 Autoria
+Autoria
 
 Desenvolvido por **Ana Luiza Pontes Franco** e **Hannah Sumiya**, como trabalho prático da disciplina de Análise e Desenvolvimento de Software — Universidade de Mogi das Cruzes.
