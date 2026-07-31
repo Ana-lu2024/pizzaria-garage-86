@@ -1,0 +1,13 @@
+# Build
+build/
+dist/
+
+# NetBeans (configurações locais da IDE, específicas de cada computador)
+nbproject/private/
+
+# Compilados
+*.class
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
